@@ -1,0 +1,2014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agarbathiwala - eCommerce Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/logo-sf-fragrance.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/fragrance-newsletter.jpg" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Agarbathiwala</b> to get latest products and discount updates.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/Bakhoor deal.jpg" alt="Bakhoor" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Someone in new just bought
+      </p>
+
+      <p class="toast-title">
+        Arabian Bakhoor
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">2 Minutes</time> ago
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Free Shipping</b>
+            This Week Order Over - ₹1,495
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="INR">INR &#x20B9;</option>
+            <option value="usd">USD &dollar;</option>
+            <option value="eur">EUR &euro;</option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Espa&ntilde;ol</option>
+            <option value="fr">Fran&ccedil;ais</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/sf-fragrance-black.png" alt="Agarbathiwala's logo" width="120" height="55">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Brands</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Dhanush</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sandesh</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Topsi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Archana</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Misba</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/brands.png" alt="Brands collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Fragrances</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Floral</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Herbal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Woody</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Fruity</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Oriental</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/attar-bottles.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Incense type</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Incense sticks</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Incense cones</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Incense dhoop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cup sambrani</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Incense candy</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/incense-types-21.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Purpose</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Religious practice</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Relaxation</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Focus & Concentration</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Improving mood</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Uplifting environment</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/meditation.jpg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Floral</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Mogra (Jasmine)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Chameli (Jasmine)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Gulab (Rose)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Rajnigandha (Tuberose)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Champa (Plumeria)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Kewda (Pandanus)</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">woody</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Sandalwood</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Agarwood (Oud)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Patchouli</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Guggal</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Fruity</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Pineapple</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Muskmelon</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Strawberry</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Mango</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Herbal</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Lavender</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Lemongrass</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Mint</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">RoseMary</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Oriental</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Frankincense (Loban)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Myrrh (Loban)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bakhoor</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Guggal</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Amber</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Musk</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Perfume</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Attar</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Clothes Perfume</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deodorant</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Air Freshener</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Other Products</a>
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Candles</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Camphor (Kapoor)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Hoova (Flower)</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deep oil</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deep Ghee</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Haldi-kumkum</a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Brands</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dhanush</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Sandesh</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Topsi</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Archana</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Fragrances</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Floral</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Oriental</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Woody</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Fruity</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Herbal</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Incense type</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Incense sticks</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Incense cones</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Incense Dhoop</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Cup Sambrani</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Incense Candy</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Purpose</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Religious Practice</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Relaxation</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Focus & Concentration</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Improving Mood</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Uplifting Environment</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Perfumes</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Attar</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Other products</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Camphor (Kapoor)</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Candles</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Brass polisher</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deep oil</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deep Ghee</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Haldi-kumkum</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Hoova (Flower)</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Fren&ccedil;h</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">INR &#8377;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">EUR &euro;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/images/AG101.jpg" alt="Incense Banner" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Trending item</p>
+
+              <h2 class="banner-title">Arabian Bakhoor and Loban</h2>
+
+              <p class="banner-text">
+                starting at &#8377; <b>99</b>.00
+              </p>
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/trendyperfumes.jpg" alt="modern sunglasses" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Trendy Scents</p>
+
+              <h2 class="banner-title">Jannatul Firdous</h2>
+
+              <p class="banner-text">
+                starting at &#8377; <b>45</b>.00
+              </p>
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/banner3og.jpg" alt="new fashion summer sale" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Sale Offer</p>
+
+              <h2 class="banner-title">Classic aroma Ramadan Sale</h2>
+
+              <p class="banner-text">
+                starting at &#8377; <b>49</b>.99
+              </p>
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title"style="margin-left: 20px;">Top selling</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="agarbatti" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Category</a>
+
+                      <div class="price-box">
+                        <p class="price">₹59.00</p>
+                        <del>₹75.00</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="agarbatti" class="showcase-img" width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Category</a>
+                  
+                      <div class="price-box">
+                        <p class="price">₹59.00</p>
+                        <del>₹75.00</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="Agarbatti" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Category</a>
+                  
+                      <div class="price-box">
+                        <p class="price">₹100.00</p>
+                        <del>₹150.00</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="Agarbatti" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Category</a>
+                  
+                      <div class="price-box">
+                        <p class="price">₹175.00</p>
+                        <del>₹250.00</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="Agarbatti" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Category</a>
+                
+                      <div class="price-box">
+                        <p class="price">₹60.00</p>
+                        <del>₹95.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="Agarbatti" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Category</a>
+                
+                      <div class="price-box">
+                        <p class="price">₹75.00</p>
+                        <del>₹125.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/bakhoor.jpg" alt="Agarbatti" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Agarbatti_name</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Category</a>
+                
+                      <div class="price-box">
+                        <p class="price">$50.00</p>
+                        <del>₹95.00</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                  
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Trending</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹49.00</p>
+                        <del>₹95.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹78.00</p>
+                        <del>₹186.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹360.00</p>
+                        <del>₹420.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹184.00</p>
+                        <del>₹250.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹120.00</p>
+                        <del>₹180.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Agarbatti" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹99.00</p>
+                        <del>₹125.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹55.00</p>
+                        <del>₹78.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Bakhoor" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹250.00</p>
+                        <del>₹195.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Top Rated</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/candle.jpg" alt="other products" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹90.00</p>
+                        <del>₹120.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/candle.jpg" alt="other products" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Category</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹84.00</p>
+                        <del>₹110.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Titan 100 Ml Womens Perfume</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Perfume</a>
+            
+                      <div class="price-box">
+                        <p class="price">₹42.00</p>
+                        <del>₹10.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/Bakhoor2.jpg" alt="Other products" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Product_name</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">₹84.00</p>
+                        <del>₹100.00</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+               
+            
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <h2 class="title"style="margin-left: 20px;">Deal of the day</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/Bakhoor deal.jpg" alt="Agarbatti" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Arabian Bakhoor Stand and Liquid</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Designed to elegantly display your favorite fragrances and enhance your sensory experience. 
+                      Handcrafted from high-quality materials, 
+                      this stand is perfect for burning traditional incense and bakhoor in a safe and stylish manner.
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">₹1249.00</p>
+
+                      <del>₹1899.00</del>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>20</b>
+                        </p>
+
+                        <p>
+                          available: <b>40</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up! Offer ends in:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">360</p>
+
+                          <p class="display-text">Days</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase-container">
+              
+                <div class="showcase">
+              
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/bakhoor.jpg" alt="Agarbatti" class="showcase-img">
+                  </div>
+              
+                  <div class="showcase-content">
+              
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+              
+                    <h3 class="showcase-title">
+                      <a href="#" class="showcase-title">Arabian Oud</a>
+                    </h3>
+              
+                    <p class="showcase-desc">
+                      Crafted with care and attention to detail
+                    </p>
+              
+                    <div class="price-box">
+                      <p class="price">₹1170.00</p>
+                      <del>$2000.00</del>
+                    </div>
+              
+                    <button class="add-cart-btn">add to cart</button>
+              
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p> already sold: <b>15</b> </p>
+              
+                        <p> available: <b>40</b> </p>
+                      </div>
+              
+                      <div class="showcase-status-bar"></div>
+                    </div>
+              
+                    <div class="countdown-box">
+              
+                      <p class="countdown-desc">Hurry Up! Offer ends in:</p>
+              
+                      <div class="countdown">
+                        <div class="countdown-content">
+                          <p class="display-number">360</p>
+                          <p class="display-text">Days</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">24</p>
+                          <p class="display-text">Hours</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">59</p>
+                          <p class="display-text">Min</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">00</p>
+                          <p class="display-text">Sec</p>
+                        </div>
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Brand directory</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Brands :</h3>
+
+          <a href="#" class="footer-category-link">Dhanush</a>
+          <a href="#" class="footer-category-link">Topsi</a>
+          <a href="#" class="footer-category-link">Misbah</a>
+          <a href="#" class="footer-category-link">Darshan</a>
+          <a href="#" class="footer-category-link">Karnataka Fragrance</a>
+          <a href="#" class="footer-category-link">Sandesh</a>
+          <a href="#" class="footer-category-link">Amrutha</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">fragrances :</h3>
+        
+          <a href="#" class="footer-category-link">floral</a>
+          <a href="#" class="footer-category-link">Herbal</a>
+          <a href="#" class="footer-category-link">Woody</a>
+          <a href="#" class="footer-category-link">Fruity</a>
+          <a href="#" class="footer-category-link">Oriental</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Floral :</h3>
+        
+          <a href="#" class="footer-category-link">Mogra</a>
+          <a href="#" class="footer-category-link">Chameli</a>
+          <a href="#" class="footer-category-link">Gulab</a>
+          <a href="#" class="footer-category-link">Rajnigandha</a>
+          <a href="#" class="footer-category-link">Champa</a>
+          <a href="#" class="footer-category-link">Kewda</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Woody :</h3>
+        
+          <a href="#" class="footer-category-link">Sandalwood</a>
+          <a href="#" class="footer-category-link">Agarwood</a>
+          <a href="#" class="footer-category-link">Guggal</a>
+          <a href="#" class="footer-category-link">Patchouli</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">xxxxxx</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">xoxoxo</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">xoxoxoxo</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">xoxoxoxo</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">xoxoxoxo</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Delivery</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Legal Notice</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Prices drop</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New products</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Best sales</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sitemap</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              No.19 Dr. TCM Royan road
+              3rd cross Sidhartha Nagar
+              Bangalore-560053
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">988-646-0035</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">syedkhaja1411@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">SyFar</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
