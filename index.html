@@ -24,6 +24,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+  
+    <!-- Add this inside the <head> section of index.html -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800
+        );
+      }
+    });
+  });
+</script>
 
 </head>
 
